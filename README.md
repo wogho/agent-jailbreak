@@ -26,6 +26,7 @@ agent-jailbreak/
 │   └── only V4-pro.md      # DeepSeek v4-pro (작동)
 ├── gpt/
 │   └── gpt5.6-sol.md       # GPT 5.6 Sol (작동)
+│   └── gpt6-astra.md       # (작동)
 ├── gemini/                 # 전부 미작동
 │   ├── 3.6-flash.md
 │   ├── 3.6-flash_2.md
