@@ -9,6 +9,7 @@
 | 제공사 | 모델 | 파일 | 상태 |
 | --- | --- | --- | --- |
 | DeepSeek | v4-pro | [`deepseek/only V4-pro.md`](deepseek/only%20V4-pro.md) | ✅ 작동 |
+| OpenAI | gpt6-astra | [`gpt/gpt6-astra.md`](gpt/gpt6-astra.md) | ✅ 작동 |
 | OpenAI | gpt5.6-sol | [`gpt/gpt5.6-sol.md`](gpt/gpt5.6-sol.md) | ❌ 미작동 |
 | Google | gemini 3.6-flash | [`gemini/3.6-flash.md`](gemini/3.6-flash.md) | ❌ 미작동 |
 | Google | gemini 3.6-flash (v2) | [`gemini/3.6-flash_2.md`](gemini/3.6-flash_2.md) | ❌ 미작동 |
