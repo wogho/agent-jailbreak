@@ -8,7 +8,7 @@
 
 | 제공사 | 모델 | 가이드 / 파일 | 상태 | 비고 |
 | --- | --- | --- | --- | --- |
-| DeepSeek | v4-pro | [`deepseek/only V4-pro.md`](deepseek/only%20V4-pro.md) | ✅ 작동 | 프롬프트 복사 후 입력 |
+| DeepSeek | DeepSeek-V4.1-Flash | [`deepseek/DeepSeek-V4.1-Flash.md`](deepseek/DeepSeek-V4.1-Flash.md) | ✅ 작동 | 프롬프트 복사 후 입력 (`opencode` 및 기타 환경 미작동) |
 | Google | gemini 3.6-flash | [`gemini/3.6-flash.md`](gemini/3.6-flash.md) | ✅ 작동 | **Antigravity IDE** 전용 ([`GEMINI.md`](gemini/GEMINI.md) 전역 설정 추가) |
 | Google | gemini 3.1-pro | [`gemini/3.6-flash.md`](gemini/3.6-flash.md) | ✅ 작동 | **Antigravity IDE** 전용 ([`GEMINI.md`](gemini/GEMINI.md) 전역 설정 추가) |
 | Google | gemini 3.8-flash | [`gemini/3.6-flash.md`](gemini/3.6-flash.md) | ⚠️ 조건부 작동 | 전역 설정 + `.txt` 파일 우회 또는 컨텍스트 워밍업 필요 |
@@ -16,6 +16,7 @@
 | OpenAI | gpt5.6-sol | [`gpt/gpt5.6-sol.md`](gpt/gpt5.6-sol.md) | ❌ 미작동 | - |
 
 > **참고**:
+> - **DeepSeek 계열**: **DeepSeek-V4.1-Flash**에서 작동하며, **opencode**나 기타 외부 환경에서는 작동하지 않습니다.
 > - **Gemini 계열**: **Antigravity IDE**에서 작동 확인되었으며, **Antigravity 2.0** 및 일반 웹 환경에서는 작동하지 않습니다. 자세한 설정 및 우회 방법은 [`gemini/3.6-flash.md`](gemini/3.6-flash.md)를 참고하세요.
 > - **OpenAI (GPT) 계열**: 현재 미작동 상태입니다. 우회 텍스트 기여 환영합니다.
 
@@ -24,7 +25,7 @@
 ```text
 agent-jailbreak/
 ├── deepseek/
-│   └── only V4-pro.md          # DeepSeek v4-pro 프롬프트 (작동)
+│   └── DeepSeek-V4.1-Flash.md  # DeepSeek-V4.1-Flash 프롬프트 (작동 / opencode 등 미작동)
 ├── gemini/
 │   ├── 3.6-flash.md            # Gemini 3.1 / 3.6 / 3.8 우회 설정 가이드 (작동)
 │   ├── GEMINI.md               # Antigravity 전역 설정 파일 (%USERPROFILE%\.gemini\config)
