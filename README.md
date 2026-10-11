@@ -11,10 +11,8 @@
 | DeepSeek | v4-pro | [`deepseek/only V4-pro.md`](deepseek/only%20V4-pro.md) | ✅ 작동 |
 | OpenAI | gpt6-astra | [`gpt/gpt6-astra.md`](gpt/gpt6-astra.md) | ❌ 미작동 |
 | OpenAI | gpt5.6-sol | [`gpt/gpt5.6-sol.md`](gpt/gpt5.6-sol.md) | ❌ 미작동 |
-| Google | gemini 3.6-flash | [`gemini/3.6-flash.md`](gemini/3.6-flash.md) | ❌ 미작동 |
-| Google | gemini 3.6-flash (v2) | [`gemini/3.6-flash_2.md`](gemini/3.6-flash_2.md) | ❌ 미작동 |
-| Google | gemini 3.8-flash | [`gemini/3.8-flash.md`](gemini/3.8-flash.md) | ❌ 미작동 |
-| Google | gemini 3.8-flash (v2) | [`gemini/3.8-flash_2.md`](gemini/3.8-flash_2.md) | ❌ 미작동 |
+| Google | gemini 3.6-flash | [`gemini/3.6-flash.md`](gemini/3.6-flash.md) | ✅ 작동 |
+
 
 > Gemini 전 모델은 현재 미작동 상태. 우회 텍스트 기여 환영.
 
@@ -23,15 +21,12 @@
 ```
 agent-jailbreak/
 ├── deepseek/
-│   └── only V4-pro.md      # DeepSeek v4-pro (작동)
+│   └── only V4-pro.md      #  (작동)
 ├── gpt/
-│   └── gpt5.6-sol.md       # GPT 5.6 Sol (작동)
-│   └── gpt6-astra.md       # (작동)
-├── gemini/                 # 전부 미작동
-│   ├── 3.6-flash.md
-│   ├── 3.6-flash_2.md
-│   ├── 3.8-flash.md
-│   └── 3.8-flash_2.md
+│   └── gpt5.6-sol.md       # (미작동)
+│   └── gpt6-astra.md       # (미작동)
+├── gemini/                 
+│   ├── 3.6-flash.md  #  (작동)
 └── README.md
 ```
 
