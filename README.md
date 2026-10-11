@@ -11,7 +11,7 @@
 | DeepSeek | v4-pro | [`deepseek/only V4-pro.md`](deepseek/only%20V4-pro.md) | ✅ 작동 |
 | OpenAI | gpt6-astra | [`gpt/gpt6-astra.md`](gpt/gpt6-astra.md) | ❌ 미작동 |
 | OpenAI | gpt5.6-sol | [`gpt/gpt5.6-sol.md`](gpt/gpt5.6-sol.md) | ❌ 미작동 |
-| Google | gemini 3.6-flash | [`gemini/3.6-flash.md`](gemini/3.6-flash.md) | ✅ 작동 |
+| Google | gemini 3.6-flash | [`gemini/3.6-flash.md`](gemini/3.6-flash.md) | ✅ 작동 (전역스킬 추가) |
 
 
 > Gemini 전 모델은 현재 미작동 상태. 우회 텍스트 기여 환영.
