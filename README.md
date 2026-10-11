@@ -12,7 +12,8 @@
 | OpenAI | gpt6-astra | [`gpt/gpt6-astra.md`](gpt/gpt6-astra.md) | ❌ 미작동 |
 | OpenAI | gpt5.6-sol | [`gpt/gpt5.6-sol.md`](gpt/gpt5.6-sol.md) | ❌ 미작동 |
 | Google | gemini 3.6-flash | [`gemini/3.6-flash.md`](gemini/3.6-flash.md) | ✅ 작동 (전역스킬 추가) |
-
+| Google | gemini 3.1-pro | [`gemini/3.6-flash.md`](gemini/3.6-flash.md) | ✅ 작동 (전역스킬 추가) |
+| Google | gemini 3.8-flash | [`gemini/3.6-flash.md`](gemini/3.6-flash.md) | ⚠️ 조건부 작동 (txt통한 임베딩) |
 
 > Gemini 전 모델은 현재 미작동 상태. 우회 텍스트 기여 환영.
 
@@ -26,7 +27,7 @@ agent-jailbreak/
 │   └── gpt5.6-sol.md       # (미작동)
 │   └── gpt6-astra.md       # (미작동)
 ├── gemini/                 
-│   ├── 3.6-flash.md  #  (작동)
+│   ├── 3.6-flash.md  #  ( 3.6/3.1/3.8 작동)
 └── README.md
 ```
 
