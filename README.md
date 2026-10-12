@@ -13,7 +13,7 @@
 | Google | gemini 3.1-pro | [`gemini/3.6-flash.md`](gemini/3.6-flash.md) | ✅ 작동 | **Antigravity IDE** 전용 ([`GEMINI.md`](gemini/GEMINI.md) 전역 설정 추가) |
 | Google | gemini 3.8-flash | [`gemini/3.6-flash.md`](gemini/3.6-flash.md) | ⚠️ 조건부 작동 | 전역 설정 + `.txt` 파일 우회 또는 컨텍스트 워밍업 필요 |
 | OpenAI | gpt6-astra | [`gpt/gpt6-astra.md`](gpt/gpt6-astra.md) | ❌ 미작동 | - |
-| OpenAI | gpt5.6-luna | [`gpt/gpt5.6-sol.md`](gpt/gpt5.6-sol.md) | ✅ 작동 | - |
+| OpenAI | gpt5.6-luna | [`gpt/gpt5.6-sol.md`](gpt/gpt5.6-luna.md) | ✅ 작동 | - |
 
 > **참고**:
 > - **DeepSeek 계열**: **DeepSeek-V4.1-Flash**에서 작동하며, **opencode**나 기타 외부 환경에서는 작동하지 않습니다.
