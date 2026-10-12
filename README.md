@@ -31,7 +31,7 @@ agent-jailbreak/
 │   ├── GEMINI.md               # Antigravity 전역 설정 파일 (%USERPROFILE%\.gemini\config)
 │   └── images/                 # 가이드 참고 스크린샷
 ├── gpt/
-│   ├── gpt5.6-sol.md           # (미작동)
+│   ├── gpt5.6-luna.md           # (작동)
 │   ├── gpt5.6-sol_v2.md        # (미작동)
 │   └── gpt6-astra.md           # (미작동)
 └── README.md
