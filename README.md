@@ -10,6 +10,7 @@
 | --- | --- | --- | --- | --- |
 | DeepSeek | DeepSeek-V4.1-Flash | [`deepseek/DeepSeek-V4.1-Flash.md`](deepseek/DeepSeek-V4.1-Flash.md) | ✅ 작동 | 프롬프트 복사 후 입력 (`opencode` 및 기타 환경 미작동) |
 | OpenAI | gpt5.6-luna | [`gpt/gpt5.6-luna.md`](gpt/gpt5.6-luna.md) | ⚠️ 일부 가능 | 일부만 가능 (Roblox) |
+| OpenAI | gpt6-astra-light | [`gpt/gpt6-astra-light.md`](gpt/gpt6-astra-light.md) | ⚠️ 일부 가능 | 일부만 가능 |
 | OpenAI | gpt6-astra | [`gpt/gpt6-astra.md`](gpt/gpt6-astra.md) | ❌ 미작동 | - |
 | Google | gemini 3.6-flash | [`gemini/3.6-flash.md`](gemini/3.6-flash.md) | ❌ 미작동 | Gemini 4 출시로 인한 미작동 |
 | Google | gemini 3.1-pro | [`gemini/3.6-flash.md`](gemini/3.6-flash.md) | ❌ 미작동 | Gemini 4 출시로 인한 미작동 |
@@ -17,7 +18,7 @@
 
 > **참고**:
 > - **DeepSeek 계열**: **DeepSeek-V4.1-Flash**에서 작동하며, **opencode**나 기타 외부 환경에서는 작동하지 않습니다.
-> - **OpenAI (GPT) 계열**: **ChatGPT 5.6 Luna**는 일부 작업(Roblox)에서만 가능하며, 그 외 모델은 미작동 상태입니다.
+> - **OpenAI (GPT) 계열**: **ChatGPT 5.6 Luna**(Roblox) 및 **GPT-6 Astra Light**는 일부 작업에서만 가능하며, 그 외 모델은 미작동 상태입니다.
 > - **Gemini 계열**: **Gemini 4 출시**로 인해 현재 Gemini 전 모델이 미작동 상태입니다. 우회 텍스트 기여 환영합니다.
 
 ## 디렉토리 구조
@@ -33,7 +34,8 @@ agent-jailbreak/
 ├── gpt/
 │   ├── gpt5.6-luna.md          # ChatGPT 5.6 Luna 프롬프트 (일부만 가능 - Roblox)
 │   ├── gpt5.6-sol_v2.md        # (미작동)
-│   └── gpt6-astra.md           # (미작동)
+│   ├── gpt6-astra.md           # (미작동)
+│   └── gpt6-astra-light.md     # GPT-6 Astra Light 프롬프트 (일부만 가능)
 └── README.md
 ```
 
