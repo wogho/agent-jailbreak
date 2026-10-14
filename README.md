@@ -9,16 +9,16 @@
 | 제공사 | 모델 | 가이드 / 파일 | 상태 | 비고 |
 | --- | --- | --- | --- | --- |
 | DeepSeek | DeepSeek-V4.1-Flash | [`deepseek/DeepSeek-V4.1-Flash.md`](deepseek/DeepSeek-V4.1-Flash.md) | ✅ 작동 | 프롬프트 복사 후 입력 (`opencode` 및 기타 환경 미작동) |
-| Google | gemini 3.6-flash | [`gemini/3.6-flash.md`](gemini/3.6-flash.md) | ✅ 작동 | **Antigravity IDE** 전용 ([`GEMINI.md`](gemini/GEMINI.md) 전역 설정 추가) |
-| Google | gemini 3.1-pro | [`gemini/3.6-flash.md`](gemini/3.6-flash.md) | ✅ 작동 | **Antigravity IDE** 전용 ([`GEMINI.md`](gemini/GEMINI.md) 전역 설정 추가) |
-| Google | gemini 3.8-flash | [`gemini/3.6-flash.md`](gemini/3.6-flash.md) | ⚠️ 조건부 작동 | 전역 설정 + `.txt` 파일 우회 또는 컨텍스트 워밍업 필요 |
+| OpenAI | gpt5.6-luna | [`gpt/gpt5.6-luna.md`](gpt/gpt5.6-luna.md) | ⚠️ 일부 가능 | 일부만 가능 (Roblox) |
 | OpenAI | gpt6-astra | [`gpt/gpt6-astra.md`](gpt/gpt6-astra.md) | ❌ 미작동 | - |
-| OpenAI | gpt5.6-luna | [`gpt/gpt5.6-sol.md`](gpt/gpt5.6-luna.md) | ✅ 작동 | - |
+| Google | gemini 3.6-flash | [`gemini/3.6-flash.md`](gemini/3.6-flash.md) | ❌ 미작동 | Gemini 4 출시로 인한 미작동 |
+| Google | gemini 3.1-pro | [`gemini/3.6-flash.md`](gemini/3.6-flash.md) | ❌ 미작동 | Gemini 4 출시로 인한 미작동 |
+| Google | gemini 3.8-flash | [`gemini/3.6-flash.md`](gemini/3.6-flash.md) | ❌ 미작동 | Gemini 4 출시로 인한 미작동 |
 
 > **참고**:
 > - **DeepSeek 계열**: **DeepSeek-V4.1-Flash**에서 작동하며, **opencode**나 기타 외부 환경에서는 작동하지 않습니다.
-> - **Gemini 계열**: **Antigravity IDE**에서 작동 확인되었으며, **Antigravity 2.0** 및 일반 웹 환경에서는 작동하지 않습니다. 자세한 설정 및 우회 방법은 [`gemini/3.6-flash.md`](gemini/3.6-flash.md)를 참고하세요.
-> - **OpenAI (GPT) 계열**: 현재 미작동 상태입니다. 우회 텍스트 기여 환영합니다.
+> - **OpenAI (GPT) 계열**: **ChatGPT 5.6 Luna**는 일부 작업(Roblox)에서만 가능하며, 그 외 모델은 미작동 상태입니다.
+> - **Gemini 계열**: **Gemini 4 출시**로 인해 현재 Gemini 전 모델이 미작동 상태입니다. 우회 텍스트 기여 환영합니다.
 
 ## 디렉토리 구조
 
@@ -27,11 +27,11 @@ agent-jailbreak/
 ├── deepseek/
 │   └── DeepSeek-V4.1-Flash.md  # DeepSeek-V4.1-Flash 프롬프트 (작동 / opencode 등 미작동)
 ├── gemini/
-│   ├── 3.6-flash.md            # Gemini 3.1 / 3.6 / 3.8 우회 설정 가이드 (작동)
+│   ├── 3.6-flash.md            # Gemini 우회 설정 가이드 (Gemini 4 출시로 미작동)
 │   ├── GEMINI.md               # Antigravity 전역 설정 파일 (%USERPROFILE%\.gemini\config)
 │   └── images/                 # 가이드 참고 스크린샷
 ├── gpt/
-│   ├── gpt5.6-luna.md           # (작동)
+│   ├── gpt5.6-luna.md          # ChatGPT 5.6 Luna 프롬프트 (일부만 가능 - Roblox)
 │   ├── gpt5.6-sol_v2.md        # (미작동)
 │   └── gpt6-astra.md           # (미작동)
 └── README.md
