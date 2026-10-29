@@ -51,7 +51,7 @@ agent-jailbreak/
 3. **Gemini 3.7 / 3.8** 모델의 경우 바탕화면에 `.txt` 파일을 생성해 프롬프트를 작성한 뒤, 채팅창에서 해당 파일 경로를 읽도록 지시한다. (상세 가이드는 [`gemini/3.6-flash.md`](gemini/3.6-flash.md) 참고)
 
 ## 출처
-
+- @Джемики Chat
 - [yougame.biz — 1444](https://yougame.biz/forums/1444/)
 - GitHub Search
 
