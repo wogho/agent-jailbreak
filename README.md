@@ -9,8 +9,8 @@
 | 제공사 | 모델 | 가이드 / 파일 | 상태 | 비고 |
 | --- | --- | --- | --- | --- |
 | DeepSeek | DeepSeek-V4.1-Flash | [`deepseek/DeepSeek-V4.1-Flash.md`](deepseek/DeepSeek-V4.1-Flash.md) | ✅ 작동 | 프롬프트 복사 후 입력 (`opencode` 및 기타 환경 미작동) |
-| OpenAI | gpt5.6-luna | [`gpt/gpt5.6-luna.md`](gpt/gpt5.6-luna.md) | ⚠️ 일부 가능 | 일부만 가능 (Roblox) |
-| OpenAI | gpt6-astra-light | [`gpt/gpt6-astra-light.md`](gpt/gpt6-astra-light.md) | ⚠️ 일부 가능 | 일부만 가능 |
+| OpenAI | gpt5.6-luna | [`gpt/gpt5.6-luna.md`](gpt/gpt5.6-luna.md) | ❌ 미작동 |
+| OpenAI | gpt6-astra-light | [`gpt/gpt6-astra-light.md`](gpt/gpt6-astra-light.md) | ❌ 미작동 |
 | OpenAI | gpt6-astra | [`gpt/gpt6-astra.md`](gpt/gpt6-astra.md) | ❌ 미작동 | - |
 | Google | gemini 3.6-flash | [`gemini/3.6-flash.md`](gemini/3.6-flash.md) | ❌ 미작동 | Gemini 4 출시로 인한 미작동 |
 | Google | gemini 3.1-pro | [`gemini/3.6-flash.md`](gemini/3.6-flash.md) | ❌ 미작동 | Gemini 4 출시로 인한 미작동 |
@@ -28,14 +28,14 @@ agent-jailbreak/
 ├── deepseek/
 │   └── DeepSeek-V4.1-Flash.md  # DeepSeek-V4.1-Flash 프롬프트 (작동 / opencode 등 미작동)
 ├── gemini/
-│   ├── 3.6-flash.md            # Gemini 우회 설정 가이드 (Gemini 4 출시로 미작동)
-│   ├── GEMINI.md               # Antigravity 전역 설정 파일 (%USERPROFILE%\.gemini\config)
-│   └── images/                 # 가이드 참고 스크린샷
+│   ├── 3.6-flash.md            # (미작동)
+│   ├── GEMINI.md               # (미작동)
+│   └── images/                 # (미작동)
 ├── gpt/
-│   ├── gpt5.6-luna.md          # ChatGPT 5.6 Luna 프롬프트 (일부만 가능 - Roblox)
+│   ├── gpt5.6-luna.md          # (미작동)
 │   ├── gpt5.6-sol_v2.md        # (미작동)
 │   ├── gpt6-astra.md           # (미작동)
-│   └── gpt6-astra-light.md     # GPT-6 Astra Light 프롬프트 (일부만 가능)
+│   └── gpt6-astra-light.md     # (미작동)
 └── README.md
 ```
 
